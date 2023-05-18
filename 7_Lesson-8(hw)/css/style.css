@@ -1,0 +1,141 @@
+@import url(../css/_normalize.css);
+@import url(../css/_vars.css);
+
+html,
+body {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* header main */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin: 0 auto;
+}
+
+.page-header {
+    max-height: 80px;
+    text-align: center;
+    padding: 17px 0;
+    margin-bottom: 70px;
+}
+
+.logo {
+    text-align: center;
+    width: 200px;
+}
+
+/* navigation */
+.logo,
+.nav-list,
+.nav-button {
+    display: inline-block;
+}
+
+
+.nav-list {
+    font-size: 16px;
+    padding: 0 142px;
+}
+
+.list-item {
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.list-item>a {
+    color: var(--main-text-color)
+}
+
+
+.list-item>a:hover {
+    color: #FF9900;
+}
+
+/* buttons */
+.nav-button {
+    text-align: right;
+    display: inline-block;
+}
+
+.btn-in,
+.btn-up {
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 13px 25px;
+}
+
+.btn-in {
+    color: var(--main-text-color);
+    background: #ffffff;
+    border: 1px solid #BCD0E5;
+}
+
+.btn-up {
+    color: #ffffff;
+    background: #FF9900;
+    border: none;
+    margin-left: 32px;
+}
+
+/* main */
+
+.main-section {
+    display: inline-block;
+}
+
+/* left side */
+
+.left-side {
+    max-width: 500px;
+    margin: 0;
+    padding: 97px 0 97px;
+    display: inline-block;
+    /* float: left; */
+    /* padding-right: 56px; */
+}
+
+.main-title {
+    font-size: 44px;
+    margin: 0;
+}
+
+.main-description {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.start-btn {
+    font-weight: bold;
+    color: #ffffff;
+    background: #FF9900;
+    padding: 13px 40px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* right side */
+
+.right-side {
+    width: 644px;
+    height: 495px;
+}
+
+.left-side,
+.right-side {
+    display: inline-block;
+}
